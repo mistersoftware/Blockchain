@@ -6,7 +6,7 @@ Hasta ahora no está claro, ni siquiera teóricamente, cómo podría funcionar u
 
 En realidad describiré dos protocolos. El primero no es práctico, porque hace un uso intensivo de un canal de transmisión sincrónico, inmaterial y anónimo. Sin embargo, motivará el segundo protocolo más práctico. En ambos casos, supondré la existencia de una  red intrazable, donde los remitentes y receptores se identifican solo por seudónimos digitales (es decir, claves públicas) y cada mensaje está firmado por su remitente y [se envia] encriptado  a su receptor.
 
-## En el primer protocolo, cada participante mantiene una base de datos (separada) de cuánto dinero pertenece a cada seudónimo. Estas cuentas colectivamente definen la propiedad del dinero, y cómo se actualizan estas cuentas se muestra a continuación,
+## En el primer protocolo, cada participante mantiene una base de datos (separada) de cuánto dinero pertenece a cada seudónimo. Estas cuentas definen la propiedad del dinero en consenso, y a continuación se muestra cómo se actualiza tal libro de contable distribuido
 
 **1. La creación de dinero.** Cualquiera puede crear dinero transmitiendo la solución a un problema computacional previamente no resuelto _(Proof of work)_. Las únicas condiciones son que debe ser fácil determinar cuánto esfuerzo informático se necesitó para resolver el problema y la solución no debería tener ningún valor, ya sea práctico o intelectual. El número de unidades monetarias creadas es igual al costo del esfuerzo informático en términos de una canasta estándar de productos. Por ejemplo, si un problema tarda 100 horas en resolverse en la computadora que lo resuelve más económicamente, y se requieren 3 canastas estándar para comprar 100 horas de tiempo de computación en esa computadora en el mercado abierto, luego de la transmisión de la solución a ese problema todos acreditan la cuenta de la emisora por 3 unidades.
 
@@ -43,3 +43,5 @@ Por lo tanto, propongo un subprotocolo de creación de dinero alternativo, en el
 **4. Creación de dinero.** Cada administrador de cuentas acepta las ofertas más altas (entre las que realmente emitieron soluciones) en términos de costo nominal por unidad de ___b-money___ creado y acredita las cuentas de los licitantes en consecuencia.
 
 ___b-money___ by Wei Dai - 1998
+
+_Nota: Me he tomado ciertas libertades en la traducción con la intención de acerca el texto al lector procurando no perder rigurosidad._
