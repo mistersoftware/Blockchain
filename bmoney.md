@@ -15,7 +15,7 @@ I will actually describe two protocols. The first one is impractical, because it
 
 In the first protocol, every participant maintains a (seperate) database of how much money belongs to each pseudonym. These accounts collectively define the ownership of money, and how these accounts are updated is the subject of this protocol.
 
-En el primer protocolo, cada participante mantiene una base de datos (separada) de cuánto dinero pertenece a cada seudónimo. Estas cuentas colectivamente definen la propiedad del dinero, y cómo se actualizan estas cuentas es el tema de este protocolo.
+> En el primer protocolo, cada participante mantiene una base de datos (separada) de cuánto dinero pertenece a cada seudónimo. Estas cuentas colectivamente definen la propiedad del dinero, y cómo se actualizan estas cuentas es el tema de este protocolo.
 
 
 1. The creation of money. Anyone can create money by broadcasting the solution to a previously unsolved computational problem. The only conditions are that it must be easy to determine how much computing effort it took to solve the problem and the solution must otherwise have no value, either practical or intellectual. The number of monetary units created is equal to the cost of the computing effort in terms of a standard basket of commodities. For example if a problem takes 100 hours to solve on the computer that solves it most economically, and it takes 3 standard baskets to purchase 100 hours of computing time on that computer on the open market, then upon the broadcast of the solution to that problem everyone credits the broadcaster's account by 3 units.
@@ -69,11 +69,9 @@ Appendix A: alternative b-money creation
 
 One of the more problematic parts in the b-money protocol is money creation. This part of the protocol requires that all of the account keepers decide and agree on the cost of particular computations. Unfortunately because computing technology tends to advance rapidly and not always publicly, this information may be unavailable, inaccurate, or outdated, all of which would cause serious problems for the protocol.
 
-> -------
-
-Apéndice A: creación alternativa de dinero b
-
-Una de las partes más problemáticas en el protocolo b-money es la creación de dinero. Esta parte del protocolo requiere que todos los administradores de cuentas decidan y acuerden el costo de cálculos particulares. Desafortunadamente, debido a que la tecnología informática tiende a avanzar rápidamente y no siempre públicamente, esta información puede no estar disponible, ser inexacta u obsoleta, lo que podría causar serios problemas para el protocolo.
+> Apéndice A: creación alternativa de dinero b
+> 
+> Una de las partes más problemáticas en el protocolo b-money es la creación de dinero. Esta parte del protocolo requiere que todos los administradores de cuentas decidan y acuerden el costo de cálculos particulares. Desafortunadamente, debido a que la tecnología informática tiende a avanzar rápidamente y no siempre públicamente, esta información puede no estar disponible, ser inexacta u obsoleta, lo que podría causar serios problemas para el protocolo.
 
 
 
