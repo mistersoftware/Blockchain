@@ -50,13 +50,24 @@ Una de las partes más problemáticas en el protocolo ___b-money___ es la creaci
  
 Por lo tanto, propongo un subprotocolo de creación de dinero alternativo, en el que los administradores de cuentas (todos en el primer protocolo o los servidores en el segundo protocolo) deciden y acuerdan la cantidad de ___b-money___ que se creará en cada período, con el costo de crear ese dinero determinado por una subasta. Cada período de creación de dinero se divide en cuatro fases, de la siguiente manera:
  
-**1. Planificación.** Los titulares de cuentas calculan y negocian entre sí para determinar un aumento óptimo en la oferta de dinero para el próximo período. Independientemente de si los titulares de cuentas pueden alcanzar un consenso, cada uno transmite su cuota de creación de dinero y cualquier cálculo macroeconómico realizado para respaldar las cifras.
-**2. Licitación o subasta.** Cualquiera que quiera crear ___b-money___ emite una oferta en forma de ___<x, y>___ donde ___x___ es la cantidad de ___b-money___ que quiere crear, ___y___ es un problema no resuelto de una clase de problema predeterminada. Cada problema en esta clase debe tener un costo nominal (en años MIPS, por ejemplo) que se acuerde públicamente.
-**3. Computación.** Después de ver las ofertas, los que presentaron ofertas en la fase de licitación ahora pueden resolver los problemas en sus ofertas y transmitir las soluciones.
-**4. Creación de dinero.** Cada administrador de cuentas acepta las ofertas más altas (entre las que realmente emitieron soluciones) en términos de costo nominal por unidad de ___b-money___ creado y acredita las cuentas de los licitantes en consecuencia.
+## 1. Planificación.
+
+Los titulares de cuentas calculan y negocian entre sí para determinar un aumento óptimo en la oferta de dinero para el próximo período. Independientemente de si los titulares de cuentas pueden alcanzar un consenso, cada uno transmite su cuota de creación de dinero y cualquier cálculo macroeconómico realizado para respaldar las cifras.
+
+## 2. Licitación o subasta.
+
+Cualquiera que quiera crear ___b-money___ emite una oferta en forma de ___<x, y>___ donde ___x___ es la cantidad de ___b-money___ que quiere crear, ___y___ es un problema no resuelto de una clase de problema predeterminada. Cada problema en esta clase debe tener un costo nominal (en años MIPS, por ejemplo) que se acuerde públicamente.
+
+## 3. Computación.
+
+Después de ver las ofertas, los que presentaron ofertas en la fase de licitación ahora pueden resolver los problemas en sus ofertas y transmitir las soluciones.
+
+## 4. Creación de dinero.
+
+Cada administrador de cuentas acepta las ofertas más altas (entre las que realmente emitieron soluciones) en términos de costo nominal por unidad de ___b-money___ creado y acredita las cuentas de los licitantes en consecuencia.
  
 [Wei Dai - 1998](http://www.weidai.com/bmoney.txt)
  
 _Nota: Me he tomado ciertas libertades en la traducción con la intención de acercar el texto al lector procurando no perder rigurosidad técnica._
  
-## ¿Sabias esta parte de la historia de la tecnología blockchain? Opina en el sistema de comentarios 👇
+## ¿Conocias esta parte de la historia de la tecnología blockchain? Opina en el sistema de comentarios 👇
