@@ -26,6 +26,7 @@ Un contrato válido debe incluir una reparación máxima en caso de incumplimien
 > * ___K_B acepta pagar un máximo de 200 MU en caso de incumplimiento___
 > * ___K_C acepta pagar un máximo de 500 MU en caso de incumplimiento___ 
 
+![Imgur](https://i.imgur.com/pB2M1bb.png)
  
 ## 4. 🤝 Celebración de contratos.
 
