@@ -6,7 +6,7 @@ Hasta ahora no está claro, ni siquiera teóricamente, cómo podría funcionar u
 ![Imgur](https://i.imgur.com/X2TrK4G.jpg)
 En realidad describiré dos protocolos. El primero no es práctico, porque hace un uso intensivo de un canal de transmisión sincrónico, inmaterial y anónimo. Sin embargo, motivará el segundo protocolo más práctico. En ambos casos, supondré la existencia de una  red intrazable, donde los remitentes y receptores se identifican solo por seudónimos digitales (es decir, claves públicas) y cada mensaje está firmado por su remitente y se envia encriptado al receptor.
 
-## ⛓ En el primer protocolo, cada participante mantiene una base de datos (separada) de cuánto dinero pertenece a cada seudónimo. Estas cuentas definen la propiedad del dinero en consenso, y a continuación se muestra cómo se actualiza tal libro de contable distribuido
+## ⛓ En el primer protocolo, cada participante mantiene una base de datos (separada) de cuánto dinero pertenece a cada seudónimo. Estas cuentas definen la propiedad del dinero en consenso, y a continuación se muestra cómo se actualiza tal libro contable distribuido
 
 
 **1. ⛏ Creación de dinero.** Cualquiera puede crear dinero transmitiendo la solución a un problema computacional previamente no resuelto _(Proof of work)_. Las únicas condiciones son que debe ser fácil determinar cuánto esfuerzo informático se necesitó para resolver el problema y la solución no debería tener ningún valor, ya sea práctico o intelectual. El número de unidades monetarias creadas es igual al costo del esfuerzo informático en términos de una canasta estándar de productos. Por ejemplo, si un problema tarda 100 horas en resolverse en la computadora que lo resuelve más económicamente, y se requieren 3 canastas estándar para comprar 100 horas de tiempo de computación en esa computadora en el mercado abierto, luego de la transmisión de la solución a ese problema todos acreditan la cuenta de la emisora por 3 unidades.
@@ -44,6 +44,6 @@ Por lo tanto, propongo un subprotocolo de creación de dinero alternativo, en el
 ![Imgur](https://i.imgur.com/X2TrK4G.jpg)
 [Wei Dai - 1998](http://www.weidai.com/bmoney.txt)
 ![Imgur](https://i.imgur.com/X2TrK4G.jpg)
-_Nota: Me he tomado ciertas libertades en la traducción con la intención de acerca el texto al lector procurando no perder rigurosidad técnica._
+_Nota: Me he tomado ciertas libertades en la traducción con la intención de acercar el texto al lector procurando no perder rigurosidad técnica._
 ![Imgur](https://i.imgur.com/X2TrK4G.jpg)
 ## ¿Sabias esta parte de la historia de la tecnología blockchain? Opina en el sistema de comentarios 👇
