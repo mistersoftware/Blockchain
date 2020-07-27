@@ -1,10 +1,10 @@
-## _b-money_ : El origen de la técnologia blockchain
+## b-money: El origen de la tecnología blockchain
 
-Estoy fascinado por la criptoanarquía de Tim May. A diferencia de las comunidades tradicionalmente asociadas con la palabra "anarquía", en una criptoanarquía el gobierno no se destruye temporalmente sino que se prohíbe permanentemente dado que es innecesario. Es una comunidad donde la amenaza de violencia es impotente porque la violencia es imposible, y la violencia es imposible porque sus participantes no pueden ser vinculados a sus nombres verdaderos o sus ubicaciones físicas.
+Estoy fascinado por la cripto-anarquía de Tim May. A diferencia de las comunidades tradicionalmente asociadas con la palabra "anarquía", en una cripto-anarquía el gobierno no se destruye temporalmente sino que se prohíbe permanentemente dado que es innecesario. Es una comunidad donde la amenaza de violencia es impotente porque la violencia es imposible, y la violencia es imposible porque sus participantes no pueden ser vinculados a sus nombres verdaderos o sus ubicaciones físicas.
 
 Hasta ahora no está claro, ni siquiera teóricamente, cómo podría funcionar una comunidad así. Una comunidad se define por la cooperación de sus participantes, y una cooperación eficiente requiere un medio de intercambio (dinero) y una forma para hacer cumplir los contratos. Tradicionalmente, estos servicios han sido proporcionados por el gobierno o instituciones patrocinadas por el gobierno y solo por entidades legales. En este artículo describo un protocolo mediante el cual estos servicios pueden ser proporcionados a entidades imposibles de rastrear por entidades igualmente irrastreables.
 
-En realidad describiré dos protocolos. El primero no es práctico, porque hace un uso intensivo de un canal de transmisión sincrónico, inmaterial y anónimo. Sin embargo, motivará el segundo protocolo más práctico. En ambos casos, supondré la existencia de una  red intrazable, donde los remitentes y receptores se identifican solo por seudónimos digitales (es decir, claves públicas) y cada mensaje está firmado por su remitente y [se envia] encriptado  a su receptor.
+En realidad describiré dos protocolos. El primero no es práctico, porque hace un uso intensivo de un canal de transmisión sincrónico, inmaterial y anónimo. Sin embargo, motivará el segundo protocolo más práctico. En ambos casos, supondré la existencia de una  red intrazable, donde los remitentes y receptores se identifican solo por seudónimos digitales (es decir, claves públicas) y cada mensaje está firmado por su remitente y se envia encriptado al receptor.
 
 ## En el primer protocolo, cada participante mantiene una base de datos (separada) de cuánto dinero pertenece a cada seudónimo. Estas cuentas definen la propiedad del dinero en consenso, y a continuación se muestra cómo se actualiza tal libro de contable distribuido
 
@@ -42,6 +42,6 @@ Por lo tanto, propongo un subprotocolo de creación de dinero alternativo, en el
 **3. Computación.** Después de ver las ofertas, los que presentaron ofertas en la fase de licitación ahora pueden resolver los problemas en sus ofertas y transmitir las soluciones.
 **4. Creación de dinero.** Cada administrador de cuentas acepta las ofertas más altas (entre las que realmente emitieron soluciones) en términos de costo nominal por unidad de ___b-money___ creado y acredita las cuentas de los licitantes en consecuencia.
 
-___b-money___ by Wei Dai - 1998
+[Wei Dai - 1998](http://www.weidai.com/bmoney.txt)
 
-_Nota: Me he tomado ciertas libertades en la traducción con la intención de acerca el texto al lector procurando no perder rigurosidad._
+_Nota: Me he tomado ciertas libertades en la traducción con la intención de acerca el texto al lector procurando no perder rigurosidad técnica._
