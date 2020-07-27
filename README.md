@@ -16,9 +16,9 @@ Hasta ahora no está claro, ni siquiera teóricamente, cómo podría funcionar u
 **3. ✒ Realización de contratos.** Un contrato válido debe incluir una reparación máxima en caso de incumplimiento para cada participante del mismo. También debe incluir una parte que llevará a cabo un arbitraje en caso de disputa. Todas las partes de un contrato, incluido el árbitro, deben transmitir sus firmas antes de que entre en vigencia. Tras la emisión del contrato y todas las firmas, cada participante carga la cuenta de cada parte por el monto de su reparación máxima y acredita una cuenta especial identificada por un hash seguro del contrato por la suma de las reparaciones máximas. El contrato se hace efectivo si los débitos tienen éxito para todas las partes sin producir un saldo negativo; de lo contrario, el contrato se ignora y las cuentas se revierten. Un contrato de muestra podría verse así:
  
 > ___" K_A acepta enviar a K_B la solución al problema P antes de las 00:00:00 del 1/1/2000. K_B acuerda pagar K_A 100 MU (unidades monetarias) antes de las 00:00:00 del 1/1/2000. K_C acepta realizar un arbitraje en caso de disputa. "___
-> * K_A acepta pagar un máximo de 1000 MU en caso de incumplimiento. 
-> * K_B acepta pagar un máximo de 200 MU en caso de incumplimiento. 
-> * K_C acepta pagar un máximo de 500 MU en caso de incumplimiento. 
+> * ___" K_A acepta pagar un máximo de 1000 MU en caso de incumplimiento "___ 
+> * ___" K_B acepta pagar un máximo de 200 MU en caso de incumplimiento "___
+> * ___" K_C acepta pagar un máximo de 500 MU en caso de incumplimiento "___ 
 
  
 **4. 🤝 Celebración de contratos.** Si un contrato concluye sin disputa, cada parte transmite un mensaje firmado "El contrato con SHA-1 hash H concluye sin reparaciones". o posiblemente "El contrato con SHA-1 hash H concluye con las siguientes reparaciones: ..." Tras la emisión de todas las firmas, cada participante acredita la cuenta de cada parte por el monto de su reparación máxima, elimina la cuenta del contrato, luego acredita o debita la cuenta de cada parte de acuerdo con el cronograma de reparación si hay uno.
