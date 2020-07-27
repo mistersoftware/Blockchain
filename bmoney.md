@@ -32,7 +32,7 @@ El protocolo propuesto en este artículo permite que las entidades seudónimas n
 
  Apéndice A: creación alternativa de ___b-money (hoy bit-coin)___
 
-Una de las partes más problemáticas en el protocolo b-money es la creación de dinero. Esta parte del protocolo requiere que todos los administradores de cuentas decidan y acuerden el costo de cálculos particulares. Desafortunadamente, debido a que la tecnología informática tiende a avanzar rápidamente y no siempre públicamente, esta información puede no estar disponible, ser inexacta u obsoleta, lo que podría causar serios problemas para el protocolo.
+Una de las partes más problemáticas en el protocolo ___b-money___ es la creación de dinero. Esta parte del protocolo requiere que todos los administradores de cuentas decidan y acuerden el costo de cálculos particulares. Desafortunadamente, debido a que la tecnología informática tiende a avanzar rápidamente y no siempre públicamente, esta información puede no estar disponible, ser inexacta u obsoleta, lo que podría causar serios problemas para el protocolo.
 
 Por lo tanto, propongo un subprotocolo de creación de dinero alternativo, en el que los administradores de cuentas (todos en el primer protocolo o los servidores en el segundo protocolo) deciden y acuerdan la cantidad de ___b-money___ que se creará en cada período, con el costo de crear ese dinero determinado por una subasta. Cada período de creación de dinero se divide en cuatro fases, de la siguiente manera:
 
