@@ -1,4 +1,4 @@
-## _b-money_ 1998
+## _b-money_ : El origen de la técnologia blockchain
 
 Estoy fascinado por la criptoanarquía de Tim May. A diferencia de las comunidades tradicionalmente asociadas con la palabra "anarquía", en una criptoanarquía el gobierno no se destruye temporalmente sino que se prohíbe permanentemente dado que es innecesario. Es una comunidad donde la amenaza de violencia es impotente porque la violencia es imposible, y la violencia es imposible porque sus participantes no pueden ser vinculados a sus nombres verdaderos o sus ubicaciones físicas.
 
