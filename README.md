@@ -70,4 +70,4 @@ Cada administrador de cuentas acepta las ofertas más altas (entre las que realm
  
 _Nota: Me he tomado ciertas libertades en la traducción con la intención de acercar el texto al lector procurando no perder rigurosidad técnica._
  
-## ¿Conocias esta parte de la historia de la tecnología blockchain? Opina en el sistema de comentarios 👇
+## ¿Deseas colaborar? Enviame un issue 
