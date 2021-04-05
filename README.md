@@ -1,6 +1,8 @@
 # 💸 b-money: El origen de la tecnología blockchain 
 
-## Estoy fascinado por la _cripto-anarquía_ de Tim May. A diferencia de las comunidades tradicionalmente asociadas con la palabra anarquía, en una _cripto-anarquía_ el gobierno no se destruye temporalmente sino que se prohíbe permanentemente dado que es innecesario. La amenaza de violencia es impotente porque la violencia es imposible, y la violencia es imposible porque sus participantes no pueden ser vinculados a sus nombres verdaderos o sus ubicaciones físicas.
+## Estoy fascinado por la _cripto-anarquía_ de Tim May. A diferencia de las comunidades tradicionalmente asociadas con la palabra anarquía, en una _cripto-anarquía_ el gobierno no se destruye temporalmente sino que se prohíbe permanentemente dado que es innecesario. 
+
+La amenaza de violencia es impotente porque la violencia es imposible, y la violencia es imposible porque sus participantes no pueden ser vinculados a sus nombres verdaderos o sus ubicaciones físicas.
  
 Hasta ahora no está claro, ni siquiera teóricamente, cómo podría funcionar una comunidad así. Una comunidad se define por la cooperación de sus participantes, y una cooperación eficiente requiere un medio de intercambio (dinero) y una forma para hacer cumplir los contratos. Tradicionalmente, estos servicios han sido proporcionados por el gobierno o instituciones patrocinadas por el gobierno y solo por entidades legales. En este artículo describo un protocolo mediante el cual estos servicios pueden ser proporcionados a entidades imposibles de rastrear por entidades igualmente irrastreables.
  
